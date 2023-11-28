@@ -32,7 +32,7 @@ dict = {"jojo":"abhijitmajumder906@gmail.com"}
 def sendMail(receiver,subject,body):
 	server = smtplib.SMTP("smtp.gmail.com",587)
 	server.starttls()
-	server.login("majumderabhijit28@gmail.com","rkauxmehyhpzbjtt")
+	server.login("majumderabhijit28@gmail.com","rkau")
 	email=EmailMessage()
 	email["From"]="majumderabhijit28@gmail.com"
 	email["To"]=receiver
